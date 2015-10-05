@@ -12,6 +12,13 @@ Quickstart:
 
  `docker run -p 80 -d djangocms-container`
 
+   Note: djangocms-container is available in docker hub, if you don't want to build the dockerfile,
+         the following commands could be used to run the djangocms-container from docker hub.
+
+ `docker pull jackielan/djangocms-container`
+
+ `docker run -p 80 -d jackielan/djangocms-container`
+
 More:
 ===
 
@@ -39,4 +46,4 @@ More:
 
    Then, you can use web browser to visit the http://hostOSIP to check your own app.
 
-   Finally, when the application is updated, you can refer to step 2 to your own application
+   Finally, when the application is updated, you can refer to step 2 to run your own application
